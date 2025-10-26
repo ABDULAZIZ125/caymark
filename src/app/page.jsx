@@ -1,9 +1,11 @@
 import Header from '../components/Header';
+import Banner from '../components/Banner';
 
 const Page = () => {
   return (
     <div>
       <Header />
+      <Banner />
       <main>
         {/* Your page content here */}
         <h1>Welcome to CayMark</h1>
@@ -14,4 +16,3 @@ const Page = () => {
 };
 
 export default Page;
-
