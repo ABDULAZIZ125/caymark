@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 const Banner = () => {
   const images = [
-    'https://picsum.photos/id/10/1200/400',
-    'https://picsum.photos/id/20/1200/400',
-    'https://picsum.photos/id/30/1200/400',
+    'https://i.pinimg.com/originals/8d/0f/49/8d0f49dc7b1e7b7a97828aef89f7cf89.jpg',
+    'https://i.ytimg.com/vi/hKv4CPh2qi4/maxresdefault.jpg',
+    'https://seotakeaways.com/wp-content/uploads/2024/09/unnamed-36.jpg',
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
